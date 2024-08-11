@@ -8,6 +8,10 @@
     padding: 0px;
 }
 
+html{
+	min-height: 100vh;
+}
+
 html[data-mode="dark"] {
 	color: #fff;
 	background: radial-gradient(ellipse at bottom, #0a0c18 0%, #050812 100%);
