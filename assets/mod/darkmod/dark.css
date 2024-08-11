@@ -1,0 +1,7 @@
+html[data-mode="dark"] .darkinit.dark {
+	display: none;
+}
+
+html[data-mode]:not([data-mode="dark"]) .darkinit.light {
+	display: none;
+}

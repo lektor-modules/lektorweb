@@ -1,0 +1,128 @@
+/** HEADER **/
+.dotbrand {
+    visibility: visible;
+	border-radius: 50%;
+	border: 1px solid rgb(97 239 97 / 30%);
+	width: 8px;
+	height: 8px;
+	text-align: center;
+	position: relative;
+	-webkit-animation: anim-glow 2s ease infinite;
+			animation: anim-glow 2s ease infinite;
+}
+
+.dotbrand i {
+	display: block;
+    border-radius: 50%;
+    border: 3px solid #1cef1c;
+    width: 2px;
+    height: 2px;
+    background-color: #1cef1c;
+}
+
+@-webkit-keyframes anim-glow {
+	0% {
+	  box-shadow: 0 0 #1cef1c;
+	}
+	100% {
+	  box-shadow: 0 0 6px 6px transparent;
+	  border-width: 1px;
+	}
+}
+
+@keyframes anim-glow {
+	0% {
+	  box-shadow: 0 0 #61ef61;
+	}
+	100% {
+	  box-shadow: 0 0 10px 8px transparent;
+	  border-width: 2px;
+	}
+}
+
+
+/** TOPNAV **/
+.menus {
+	display: none;
+}
+
+.menu-open .menus {
+	display: flex;
+}
+
+
+/** CARDER */
+.vw > .card {
+	padding: 24px;
+	border-radius: 15px;
+	height: 520px;
+	flex: 0 0 auto;
+}
+
+.vw > .card:nth-child(1) {
+	margin-left: var(--page-margin);
+}
+
+.vw > .card.w-4 {
+	width: 428px;
+}
+
+.vw > .card.w-7 {
+	width: 720px;
+}
+
+.card.bg-main {
+	border: 1px solid rgb(24 32 37 / 30%);
+	background-color: rgb(0 0 0 / 15%);
+	backdrop-filter: blur(5px);
+	transition: .33s;
+}
+
+.card.bg-main:hover{
+	background-color: rgb(1 11 20 / 10%);
+	border: 1px solid rgb(34 170 238 / 20%);
+	transform: scale( 1.05);
+	transition: .33s;
+}
+
+/** ACTION **/
+.btn-act{
+	width: 32px;
+	height: 32px;
+	margin: 0px 5px;
+	border: 1px solid rgb(255 255 255 / 20%);
+	background: rgb(0 0 0 / 30%);
+	border-radius: 9px;
+}
+
+.btn-act:hover{
+	background: rgb(139 139 151 / 40%);
+	transition: 230ms;
+}
+
+
+header .action {
+	visibility: visible;
+}
+
+
+
+.socmed.email,
+.socmed.whatsapp {
+	width: auto;
+	padding: 0 14px ;
+}
+
+.socmed.email img,
+.socmed.whatsapp img {
+	width: auto;
+	margin-right: 7px;
+}
+
+.socmed.email p,
+.socmed.whatsapp p {
+	font-size: .825rem;
+	color: #fff;
+	padding-left: 7px;
+	border-left: 1px solid #fff;
+}

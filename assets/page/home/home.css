@@ -1,0 +1,13 @@
+
+.hamburger{
+    display: none;
+}
+
+body[data-menu='normal'] .hamburger {
+    display: block;
+}
+
+body {
+    overflow: scroll;
+}
+
