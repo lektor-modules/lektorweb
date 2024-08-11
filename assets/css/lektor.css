@@ -86,6 +86,20 @@
 	transition: .33s;
 }
 
+@media only screen and (min-width: 810px) {
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+	
+}
+
+
 /** ACTION **/
 .btn-act{
 	width: 32px;
@@ -316,4 +330,17 @@ footer {
 .socmed.whatsapp {
 	width: 80px;
 	padding: 0 14px ;
+}
+
+@media only screen and (min-width: 810px) {
+
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+	
 }
