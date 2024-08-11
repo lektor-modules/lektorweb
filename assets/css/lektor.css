@@ -170,11 +170,122 @@ header .action {
 }
 
 .topnav > a h2{
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 
 .topnav > a p{
 	color: var(--color-grey);
+}
+
+@media only screen and (min-width: 810px) {
+
+	.menus {
+
+	}
+
+	.menus .navi {
+
+	}
+
+	.menus .feat img{
+
+	}
+
+	.topnav{
+
+	}
+
+	.topnav > a {
+
+	}
+
+	.topnav > a .boxicon {
+
+	}
+
+	.topnav > a .ambience{
+
+	}
+
+	.topnav > a h2{
+		
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+
+	.menus {
+		top: 10vh;
+		bottom: 10vh;
+	}
+
+	.menus .navi {
+		width: 38vw;
+	}
+
+	.menus .feat img{
+		width: 540px;
+	}
+
+	.topnav{
+		grid-template-columns: 50% 50%;
+	}
+
+	.topnav > a {
+		grid-template-columns: 90px calc( 100% - 90px );
+	}
+	
+	.topnav > a .boxicon {
+		width: 60px;
+		height: 60px;
+	}
+
+	.topnav > a .ambience{
+		width: 60px;
+    	height: 60px;
+	}
+
+	.topnav > a h2{
+		font-size: 1.2rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	
+	.menus {
+		top: 10vh;
+		bottom: 10vh;
+	}
+
+	.menus .navi {
+		width: 38vw;
+	}
+
+	.menus .feat img{
+		width: 540px;
+	}
+
+	.topnav{
+		grid-template-columns: 50% 50%;
+	}
+
+	.topnav > a {
+		grid-template-columns: 90px calc( 100% - 90px );
+	}
+	
+	.topnav > a .boxicon {
+		width: 60px;
+		height: 60px;
+	}
+
+	.topnav > a .ambience{
+		width: 60px;
+    	height: 60px;
+	}
+
+	.topnav > a h2{
+		font-size: 1.2rem;
+	}
 }
 
 
