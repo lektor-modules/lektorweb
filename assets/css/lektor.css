@@ -271,8 +271,9 @@ header .action {
 		bottom: 10vh;
 	}
 
+	.menus .feat,
 	.menus .navi {
-		width: 38vw;
+		width: 580vw;
 	}
 
 	.menus .feat img{
