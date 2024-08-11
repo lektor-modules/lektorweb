@@ -8,7 +8,7 @@ let headnav_init = () => {
 
     profil.addEventListener('click', ()=> {
         console.log('lektorer click');
-        if (!juston) {
+        if ( ! juston ) {
             htbody.dataset.menu = 'normal';
             topnav.classList.add('active');
             juston = true;

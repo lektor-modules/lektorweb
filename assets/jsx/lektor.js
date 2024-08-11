@@ -15,7 +15,7 @@ window.onload = () => {
         script_gen('jsx', 'assets/page/home/home.js' );
     }
 
-    // virtual page to left loading method
+    // horizontal page 
     vpage_mode();
 
     // menu hamburger
@@ -27,10 +27,10 @@ window.onload = () => {
     // module darkmode
     init_darks();
 
-    // generate globe background
+    // generate mappers 
     init_maper();
 
-    // main uncritical styles
+    // load main styles
     script_gen('css', 'assets/css/lektor.css' );
 };
 

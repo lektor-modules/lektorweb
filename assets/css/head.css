@@ -3,6 +3,10 @@
 	--color-grey:rgb(161, 161, 170);
 }
 
+
+
+
+/** SKELETON **/
 * {
     margin: 0px;
     padding: 0px;
@@ -22,7 +26,7 @@ body {
     font-optical-sizing: auto;
 	overflow-y: scroll;
     font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 body.menu-open{
@@ -50,7 +54,7 @@ body.menu-open{
 	display: grid;
     justify-content: space-between;
     grid-template-columns: 100%;
-    grid-template-rows: 10vh 80vh 10vh;
+	grid-template-rows: 8vh 84vh 8vh;
 	z-index: 1;
 }
 
@@ -66,7 +70,45 @@ body.menu-open{
 	overflow-x: hidden;  
 	align-items: center;
 	visibility: visible;
-	gap: 0 24px;
+	gap: 0 18px;
+}
+
+
+@media only screen and (min-width: 810px) {
+	
+	.vw {
+		gap: 0 20px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	
+	body {
+		font-size: 15px;
+	}
+
+	.vm {
+		grid-template-rows: 9vh 82vh 9vh;
+	}
+
+	.vw {
+		gap: 0 22px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+
+	body {
+		font-size: 16px;
+	}
+
+	.vm {
+		grid-template-rows: 10vh 80vh 10vh;
+	}
+
+	.vw {
+		gap: 0 24px;
+	}
 }
 
 
@@ -84,17 +126,48 @@ body.menu-open{
 }
 
 .fz-hero{
-	font-size: 5rem;
+	font-size: 3.5rem;
 	font-weight: 300;
 }
 
 .fz-name{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 }
 
 a {
 	text-decoration: none;
+}
+
+@media only screen and (min-width: 810px) {
+	.fz-hero{
+		font-size: 3.75rem;
+	}
+
+	.fz-name{
+		font-size: 1.65rem;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.fz-hero{
+		font-size: 4rem;
+	}
+
+	.fz-name{
+		font-size: 1.75rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+
+	.fz-hero{
+		font-size: 5rem;
+	}
+
+	.fz-name{
+		font-size: 2rem;
+	}
 }
 
 /* LAYOUT */
