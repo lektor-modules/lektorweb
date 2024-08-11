@@ -9,7 +9,7 @@ window.onload = () => {
     const path = window.location.pathname;
 
     // page routing
-    if ( path == '/index.html' )
+    if ( path == '/index.html' || path == '/' )
     {
         script_gen('css', 'assets/page/home/home.css' );
         script_gen('jsx', 'assets/page/home/home.js' );
