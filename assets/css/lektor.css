@@ -105,13 +105,6 @@ header .action {
 	visibility: visible;
 }
 
-
-.socmed.email,
-.socmed.whatsapp {
-	width: 80px;
-	padding: 0 14px ;
-}
-
 .socmed.email img,
 .socmed.whatsapp img {
 	width: 18px;
@@ -130,4 +123,6 @@ header .action {
 .socmed.email,
 .socmed.whatsapp {
 	opacity: 1;
+	width: 80px;
+	padding: 0 14px ;
 }
