@@ -261,10 +261,6 @@ header .panel {
 	margin-right: 10px;
 }
 
-.dotbrand {
-	visibility: hidden;
-}
-
 .brand h1{
 	font-size: 1rem;
 }
@@ -281,88 +277,10 @@ header .panel {
 	margin-left: 18px;
 }
 
-header .action {
-	visibility: hidden;
-}
-
-.menus{
-    position: fixed;
-    top: 10vh;
-    bottom: 10vh;
-    right: 0;
-    left: 0;
-}
-
-.menus .feat{
-	width: 540px;
-	margin-left: auto;
-}
-
-.menus .navi {
-	width: 38vw;
-	margin-right: auto;
-}
-
-.menus .feat img{
-	width: 540px;
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
-}
-
-.topnav{
-	margin-top: 3em;
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-gap: 2%;
-	row-gap: 4rem;
-}
-
-.topnav > a {
-	color: #fff;
-	text-decoration: none;
-	grid-template-columns: 90px calc( 100% - 90px );
-}
-
-.topnav > a .boxicon {
-	position: relative;
-	width: 60px;
-    height: 60px;
-}
-
-.topnav > a .ambience{
-	position: absolute;
-	width: 60px;
-    height: 60px;
-	border-radius: 50px;
-    top: 0;
-	opacity: .24;
-	filter: blur(24px);
-	transform: translateZ(0);
-	z-index: -1;
-}
-
-.topnav > a img{
-    -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: invert(100%);
-}
-
-.topnav > a h2{
-	font-size: 1.2rem;
-}
-
-.topnav > a p{
-	color: var(--color-grey);
-}
-
-
 /** FOOTER **/
-
-footer{
-	padding: 0 var(--page-margin ) ;
-    justify-content: space-between;
-}
-
-.socmed.email,
-.socmed.whatsapp {
+.menus,
+footer,
+.dotbrand,
+header .action {
 	opacity: 0;
 }

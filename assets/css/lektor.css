@@ -1,6 +1,6 @@
 /** HEADER **/
 .dotbrand {
-    visibility: visible;
+    opacity: 1;
 	border-radius: 50%;
 	border: 1px solid rgb(97 239 97 / 30%);
 	width: 8px;
@@ -102,7 +102,87 @@
 
 
 header .action {
-	visibility: visible;
+	opacity: 1;
+}
+
+/** TOPNAV */
+.menus {
+	opacity: 1;
+    position: fixed;
+    top: 10vh;
+    bottom: 10vh;
+    right: 0;
+    left: 0;
+}
+
+.menus .feat{
+	width: 540px;
+	margin-left: auto;
+}
+
+.menus .navi {
+	width: 38vw;
+	margin-right: auto;
+}
+
+.menus .feat img{
+	width: 540px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+.topnav{
+	margin-top: 3em;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 2%;
+	row-gap: 4rem;
+}
+
+.topnav > a {
+	color: #fff;
+	text-decoration: none;
+	grid-template-columns: 90px calc( 100% - 90px );
+}
+
+.topnav > a .boxicon {
+	position: relative;
+	width: 60px;
+    height: 60px;
+}
+
+.topnav > a .ambience{
+	position: absolute;
+	width: 60px;
+    height: 60px;
+	border-radius: 50px;
+    top: 0;
+	opacity: .24;
+	filter: blur(24px);
+	transform: translateZ(0);
+	z-index: -1;
+}
+
+.topnav > a img{
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+}
+
+.topnav > a h2{
+	font-size: 1.2rem;
+}
+
+.topnav > a p{
+	color: var(--color-grey);
+}
+
+
+/** FOOTER */
+
+footer {
+	opacity: 1;
+	padding: 0 var(--page-margin ) ;
+    justify-content: space-between;
 }
 
 .socmed.email img,
@@ -122,7 +202,6 @@ header .action {
 
 .socmed.email,
 .socmed.whatsapp {
-	opacity: 1;
 	width: 80px;
 	padding: 0 14px ;
 }
