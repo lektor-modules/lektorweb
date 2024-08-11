@@ -364,5 +364,5 @@ footer{
 
 .socmed.email,
 .socmed.whatsapp {
-	visibility: hiden;
+	opacity: 0;
 }

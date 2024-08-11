@@ -129,5 +129,5 @@ header .action {
 
 .socmed.email,
 .socmed.whatsapp {
-	visibility: visible;
+	opacity: 1;
 }
