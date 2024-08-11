@@ -105,7 +105,10 @@ header .action {
 	visibility: visible;
 }
 
-
+.socmed.email,
+.socmed.whatsapp {
+	visibility: visible;
+}
 
 .socmed.email,
 .socmed.whatsapp {

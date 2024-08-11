@@ -361,3 +361,8 @@ footer{
 	padding: 0 var(--page-margin ) ;
     justify-content: space-between;
 }
+
+.socmed.email,
+.socmed.whatsapp {
+	visibility: hiden;
+}
