@@ -165,13 +165,13 @@ header .action {
 	grid-template-columns: 90px calc( 100% - 90px );
 }
 
-.topnav > a .boxicon {
+.topnav > .boxicon {
 	position: relative;
 	width: 60px;
     height: 60px;
 }
 
-.topnav > a .ambience{
+.topnav > .ambience{
 	position: absolute;
 	width: 60px;
     height: 60px;
@@ -183,14 +183,15 @@ header .action {
 	z-index: -1;
 }
 
+.topnav > h2{
+	font-size: 1rem;
+}
+
 html[data-mode="dark"] .topnav > a img{
     -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
 }
 
-.topnav > a h2{
-	font-size: 1rem;
-}
 
 @media only screen and (min-width: 810px) {
 
@@ -202,23 +203,23 @@ html[data-mode="dark"] .topnav > a img{
 
 	}
 
-	.topnav{
+	.menus .topnav{
 
 	}
 
-	.topnav > a {
+	.menus .topnav > a {
+		grid-template-columns: 90px calc( 100% - 90px );
+	}
+
+	.menus .topnav > .boxicon {
 
 	}
 
-	.topnav > a .boxicon {
+	.menus .topnav > .ambience{
 
 	}
 
-	.topnav > a .ambience{
-
-	}
-
-	.topnav > a h2{
+	.menus .topnav > h2{
 		
 	}
 }
@@ -242,17 +243,17 @@ html[data-mode="dark"] .topnav > a img{
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 	
-	.menus .topnav > a .boxicon {
+	.menus .topnav > .boxicon {
 		width: 60px;
 		height: 60px;
 	}
 
-	.menus .topnav > a .ambience{
+	.menus .topnav > .ambience{
 		width: 60px;
     	height: 60px;
 	}
 
-	.menus .topnav > a h2{
+	.menus .topnav > h2{
 		font-size: 1.2rem;
 	}
 }
@@ -270,27 +271,26 @@ html[data-mode="dark"] .topnav > a img{
 	}
 
 
-	.topnav{
+	.menus .topnav{
 		margin-top: 2.5em;
-		grid-template-columns: 50% 50%;
 		row-gap: 2.5rem;
 	}
 
-	.topnav > a {
+	.menus .topnav > a {
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 	
-	.topnav > a .boxicon {
+	.menus .topnav >  .boxicon {
 		width: 60px;
 		height: 60px;
 	}
 
-	.topnav > a .ambience{
+	.menus .topnav > .ambience{
 		width: 60px;
     	height: 60px;
 	}
 
-	.topnav > a h2{
+	.menus .topnav > h2{
 		font-size: 1.2rem;
 	}
 }
