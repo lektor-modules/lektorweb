@@ -266,7 +266,7 @@ header .action {
 	}
 
 	.menus .menubox {
-		grid-template-columns: 520px 520px;
+		grid-template-columns: 580px 580px;
 		grid-gap: 4rem;
 	}
 
