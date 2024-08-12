@@ -171,7 +171,7 @@ header .action {
     height: 60px;
 }
 
-.topnav > .ambience{
+.topnav > a .ambience{
 	position: absolute;
 	width: 60px;
     height: 60px;
@@ -211,11 +211,11 @@ html[data-mode="dark"] .topnav > a img{
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 
-	.menus .topnav > .boxicon {
+	.menus .topnav > a .boxicon {
 
 	}
 
-	.menus .topnav > .ambience{
+	.menus .topnav > a .ambience{
 
 	}
 
@@ -243,12 +243,12 @@ html[data-mode="dark"] .topnav > a img{
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 	
-	.menus .topnav > .boxicon {
+	.menus .topnav > a .boxicon {
 		width: 60px;
 		height: 60px;
 	}
 
-	.menus .topnav > .ambience{
+	.menus .topnav > a .ambience{
 		width: 60px;
     	height: 60px;
 	}
@@ -280,12 +280,12 @@ html[data-mode="dark"] .topnav > a img{
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 	
-	.menus .topnav >  .boxicon {
+	.menus .topnav >  a .boxicon {
 		width: 60px;
 		height: 60px;
 	}
 
-	.menus .topnav > .ambience{
+	.menus .topnav > a .ambience{
 		width: 60px;
     	height: 60px;
 	}
