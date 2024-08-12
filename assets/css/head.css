@@ -211,7 +211,7 @@ a {
 
 
 img {
-	width: 100%
+	width: auto;
 }
 
 html[data-mode="dark"] img.icon {

@@ -139,7 +139,6 @@ header .action {
 
 
 .menus .feat img{
-	width: 100%;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
