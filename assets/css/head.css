@@ -1,7 +1,7 @@
 :root {
 	--page-margin : 5vw;
 	--color-grey:rgb(161, 161, 170);
-	--color-orange: orange;
+	--color-orange: #ff8f00;
 	--color-blue: #0097ff;
 	--color-green: lime;
 	--color-purple: #f918ff;
@@ -114,8 +114,12 @@ body.menu-open{
 
 
 /* TYPOGRAHPY */
+.fw-300 {
+    font-weight: 300;
+}
+
 .fw-400 {
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .fw-500 {
@@ -123,7 +127,7 @@ body.menu-open{
 }
 
 .fw-600 {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .fz-hero{
@@ -197,8 +201,12 @@ a {
 	display: grid;
 }
 
-.faic {
+.aic {
 	align-items: center;
+}
+
+.jcc {
+	justify-content: center;
 }
 
 .dnone {

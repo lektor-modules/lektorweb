@@ -128,13 +128,11 @@ header .action {
     bottom: 10vh;
     right: 0;
     left: 0;
+	justify-content: center;
 }
 
 .menus .menubox{
-	display: grid;
 	grid-template-columns: 100%;
-	align-content: center;
-	margin: auto;
 }
 
 .menus .navi {
@@ -144,6 +142,13 @@ header .action {
 .menus .mascot{
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
+}
+
+.menus .lining {
+	border-bottom: 0;
+	color: var(--color-orange );
+	width: 150px;
+	margin: 5px 0 10px;
 }
 
 .topnav{
@@ -178,7 +183,7 @@ header .action {
 	z-index: -1;
 }
 
-.topnav > a img{
+html[data-mode="dark"] .topnav > a img{
     -webkit-filter: invert(100%); /* Safari/Chrome */
     filter: invert(100%);
 }
@@ -186,8 +191,6 @@ header .action {
 .topnav > a h2{
 	font-size: 1rem;
 }
-
-
 
 @media only screen and (min-width: 810px) {
 
