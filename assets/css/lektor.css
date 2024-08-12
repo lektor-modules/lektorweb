@@ -130,18 +130,16 @@ header .action {
     left: 0;
 }
 
-.menus .feat{
-	width: 540px;
-	margin-left: auto;
+.menus .menubox{
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: center;
+	margin: auto;
 }
 
-.menus .navi {
-	width: 38vw;
-	margin-right: auto;
-}
 
 .menus .feat img{
-	width: 540px;
+	width: 100%;
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
@@ -233,33 +231,29 @@ header .action {
 		bottom: 10vh;
 	}
 
-	.menus .navi {
-		width: 38vw;
+	.menus .menubox{
+
 	}
 
-	.menus .feat img{
-		width: 540px;
-	}
-
-	.topnav{
+	.menus .topnav{
 		grid-template-columns: 50% 50%;
 	}
 
-	.topnav > a {
+	.menus .topnav > a {
 		grid-template-columns: 90px calc( 100% - 90px );
 	}
 	
-	.topnav > a .boxicon {
+	.menus .topnav > a .boxicon {
 		width: 60px;
 		height: 60px;
 	}
 
-	.topnav > a .ambience{
+	.menus .topnav > a .ambience{
 		width: 60px;
     	height: 60px;
 	}
 
-	.topnav > a h2{
+	.menus .topnav > a h2{
 		font-size: 1.2rem;
 	}
 }
@@ -271,10 +265,11 @@ header .action {
 		bottom: 10vh;
 	}
 
-	.menus .feat,
-	.menus .navi {
-		width: 580px;
+	.menus .menubox {
+		grid-template-columns: 520px 520px;
+		grid-gap: 4rem;
 	}
+
 
 	.menus .feat img{
 		width: 540px;
