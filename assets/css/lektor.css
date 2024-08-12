@@ -271,10 +271,6 @@ header .action {
 	}
 
 
-	.menus .feat img{
-		width: 540px;
-	}
-
 	.topnav{
 		margin-top: 2.5em;
 		grid-template-columns: 50% 50%;
