@@ -1,6 +1,10 @@
 :root {
 	--page-margin : 5vw;
 	--color-grey:rgb(161, 161, 170);
+	--color-orange: orange;
+	--color-blue: #0097ff;
+	--color-green: lime;
+	--color-purple: #f918ff;
 }
 
 
@@ -212,6 +216,7 @@ a {
 
 img {
 	width: auto;
+	margin: auto;
 }
 
 html[data-mode="dark"] img.icon {
@@ -219,20 +224,28 @@ html[data-mode="dark"] img.icon {
     filter: invert(100%);
 }
 
+.cl-orange{
+	color: var(--color-orange);
+}
+
+.cl-grey{
+	color: var(--color-grey);
+}
+
 .bg-orange{
-	background-color: orange;
+	background-color: var(--color-orange);
 }
 
 .bg-blue{
-	background-color: #0097ff;
+	background-color: var(--color-blue);
 }
 
 .bg-green{
-	background-color: lime;
+	background-color: var(--color-green);
 }
 
 .bg-purple{
-	background-color: #f918ff;
+	background-color: var(--color-purple);
 }
 
 /* ACCENT */

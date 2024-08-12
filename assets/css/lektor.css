@@ -137,8 +137,11 @@ header .action {
 	margin: auto;
 }
 
+.menus .navi {
+    display: grid;
+}
 
-.menus .feat img{
+.menus .mascot{
 	-webkit-transform: scaleX(-1);
 	transform: scaleX(-1);
 }
@@ -184,9 +187,7 @@ header .action {
 	font-size: 1rem;
 }
 
-.topnav > a p{
-	color: var(--color-grey);
-}
+
 
 @media only screen and (min-width: 810px) {
 
@@ -195,10 +196,6 @@ header .action {
 	}
 
 	.menus .navi {
-
-	}
-
-	.menus .feat img{
 
 	}
 
@@ -265,7 +262,7 @@ header .action {
 	}
 
 	.menus .menubox {
-		grid-template-columns: 580px 580px;
+		grid-template-columns: 560px 620px;
 		grid-gap: 4rem;
 	}
 
