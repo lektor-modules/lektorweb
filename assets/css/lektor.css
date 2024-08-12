@@ -165,7 +165,7 @@ header .action {
 	grid-template-columns: 90px calc( 100% - 90px );
 }
 
-.topnav > .boxicon {
+.topnav > a .boxicon {
 	position: relative;
 	width: 60px;
     height: 60px;
