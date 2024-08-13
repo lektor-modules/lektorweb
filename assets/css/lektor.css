@@ -246,7 +246,7 @@ header .action {
 
 	.menus .navi {
 		display: grid;
-		align-items: center;
+		align-items: start;
 	}
 
 	.menus .fz-hero {
@@ -254,7 +254,7 @@ header .action {
 	}
 
 	.menus .topnav{
-		margin-top: 3em;
+		margin-top: 5em;
 	}
 
 	.menus .topnav > a {
@@ -271,13 +271,6 @@ header .action {
 
 	.menus .topnav > h3{
 		
-	}
-}
-
-@media only screen and (min-width: 960px) {
-	
-	.menus .lining {
-		margin: 5px 0 10px;
 	}
 }
 
