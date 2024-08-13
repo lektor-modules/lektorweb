@@ -310,6 +310,8 @@ footer {
 	opacity: 1;
 	display: flex;
 	padding: 0 var(--page-margin) ;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .socmed.email img,
@@ -336,9 +338,7 @@ footer {
 @media only screen and (min-width: 810px) {
 
 	footer {
-		
-		align-items: center;
-		justify-content: space-between;
+
 	}
 }
 
