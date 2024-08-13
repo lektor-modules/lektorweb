@@ -179,14 +179,19 @@ header .action {
 }
 
 .topnav > h2{
-	font-size: 1rem;
+	font-size: .9rem;
 }
 
 
-@media only screen and (min-width: 480px) {
-	.topnav{
+@media only screen and (min-width: 400px) {
+
+	.menus .topnav{
 		row-gap: 2rem;
 		margin-top: 2em;
+	}
+
+	.menus .topnav > h2{
+		font-size: 1rem;
 	}
 }
 
