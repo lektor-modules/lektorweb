@@ -308,7 +308,8 @@ html[data-mode="dark"] .topnav > a img{
 
 footer {
 	opacity: 1;
-	display: block;
+	display: flex;
+	padding: 0 var(--page-margin) ;
 }
 
 .socmed.email img,
@@ -335,8 +336,7 @@ footer {
 @media only screen and (min-width: 810px) {
 
 	footer {
-		display: flex;
-		padding: 0 var(--page-margin) ;
+		
 		align-items: center;
 		justify-content: space-between;
 	}
