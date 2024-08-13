@@ -149,7 +149,6 @@ header .action {
 	border-bottom: 0;
 	color: var(--color-orange );
 	width: 150px;
-	margin: 5px 0 10px;
 }
 
 .topnav{
@@ -259,6 +258,12 @@ header .action {
 
 	.menus .topnav > h3{
 		
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.menus .lining {
+		margin: 5px 0 10px;
 	}
 }
 
