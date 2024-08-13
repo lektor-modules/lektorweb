@@ -205,7 +205,11 @@ header .action {
 	}
 
 	.menus .fz-hero {
-		font-size: 2.2rem;
+		font-size: 2rem;
+	}
+
+	.menus .fz-task{
+		text-align: center;
 	}
 
 
@@ -240,10 +244,6 @@ header .action {
 
 	.menus .fz-hero {
 		font-size: 2.5rem;
-	}
-
-	.menus .fz-task{
-		text-align: center;
 	}
 
 	.menus .topnav{
