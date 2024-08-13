@@ -274,6 +274,15 @@ header .action {
 	}
 }
 
+@media only screen and (min-width: 960px) {
+	
+	.menus .topnav{
+		margin-top: 4rem;
+		grid-template-columns: 50% 50%;
+	}
+	
+}
+
 @media only screen and (min-width: 1280px) {
 
 	.menus {
