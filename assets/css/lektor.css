@@ -133,11 +133,12 @@ header .action {
 }
 
 .menus .menubox{
+	display: grid;
 	grid-template-columns: 100%;
 }
 
 .menus .navi {
-    display: grid;
+    display: block;
 }
 
 .menus .mascot{
@@ -153,10 +154,6 @@ header .action {
 
 .topnav{
 	margin-top: 3em;
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-gap: 2%;
-	row-gap: 4rem;
 }
 
 .topnav > a {
@@ -208,11 +205,15 @@ html[data-mode="dark"] .topnav > a img{
 	}
 
 	.menus .navi {
-
+		display: grid;
+		align-items: center;
 	}
 
 	.menus .topnav{
-
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-gap: 2%;
+		row-gap: 4rem;
 	}
 
 	.menus .topnav > a {
