@@ -187,7 +187,7 @@ header .action {
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 360px) {
 
 	.menus .fz-hero {
 		font-size: 2.7rem;
