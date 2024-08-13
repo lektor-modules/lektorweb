@@ -207,6 +207,16 @@ header .action {
 		display: block;
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
+		width: 380px;
+    	height: auto;
+	}
+
+	.menus .gretting {
+		text-align: center;
+	}
+
+	.menus .fz-task{
+		text-align: center;
 	}
 
 	.menus .topnav{
