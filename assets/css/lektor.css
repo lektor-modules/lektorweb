@@ -150,7 +150,7 @@ header .action {
 
 .topnav{
 	display: grid;
-	row-gap: 4rem;
+	row-gap: 2rem;
 	margin-top: 3em;
 }
 
