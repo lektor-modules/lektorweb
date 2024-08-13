@@ -214,6 +214,10 @@ header .action {
 		text-align: center;
 	}
 
+	.menus .lining {
+		margin: 5px 0 10px;
+	}
+
 	.menus .fz-hero {
 		font-size: 2.5rem;
 	}
@@ -266,9 +270,7 @@ header .action {
 }
 
 @media only screen and (min-width: 960px) {
-	.menus .lining {
-		margin: 5px 0 10px;
-	}
+	
 }
 
 @media only screen and (min-width: 1280px) {
