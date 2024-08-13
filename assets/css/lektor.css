@@ -215,7 +215,7 @@ header .action {
 	}
 
 	.menus .lining {
-		margin: 5px 0 10px;
+		margin: 5px auto 10px;
 	}
 
 	.menus .fz-hero {
@@ -271,6 +271,9 @@ header .action {
 
 @media only screen and (min-width: 960px) {
 	
+	.menus .lining {
+		margin: 5px 0 10px;
+	}
 }
 
 @media only screen and (min-width: 1280px) {
@@ -286,6 +289,7 @@ header .action {
 	}
 
 	.menus .topnav{
+		margin-top: 4rem;
 		grid-template-columns: 50% 50%;
 	}
 
