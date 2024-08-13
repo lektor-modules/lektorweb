@@ -208,9 +208,10 @@ header .action {
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
 	}
-	
+
 	.menus .topnav{
 		grid-template-columns: 50% 50%;
+		row-gap: 2.5rem;
 	}
 }
 
