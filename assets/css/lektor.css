@@ -137,6 +137,10 @@ header .action {
     display: block;
 }
 
+.menus .fz-hero {
+	font-size: 2.1rem;
+}
+
 .menus .mascot{
 	display: none;
 }
@@ -178,19 +182,23 @@ header .action {
 	z-index: -1;
 }
 
-.topnav > h2{
+.topnav > h3{
 	font-size: .9rem;
 }
 
 
 @media only screen and (min-width: 400px) {
 
+	.menus .fz-hero {
+		font-size: 2.7rem;
+	}
+
 	.menus .topnav{
 		row-gap: 2rem;
 		margin-top: 2em;
 	}
 
-	.menus .topnav > h2{
+	.menus .topnav > h3{
 		font-size: 1rem;
 	}
 }
@@ -231,7 +239,7 @@ header .action {
 
 	}
 
-	.menus .topnav > h2{
+	.menus .topnav > h3{
 		
 	}
 }
@@ -266,7 +274,7 @@ header .action {
     	height: 60px;
 	}
 
-	.menus .topnav > h2{
+	.menus .topnav > h3{
 		font-size: 1.2rem;
 	}
 }
@@ -302,7 +310,7 @@ header .action {
     	height: 60px;
 	}
 
-	.menus .topnav > h2{
+	.menus .topnav > h3{
 		font-size: 1.2rem;
 	}
 }
