@@ -19,7 +19,7 @@ html{
 
 html[data-mode="dark"] {
 	color: #fff;
-	background: radial-gradient(ellipse at bottom, #0a0c18 0%, #050812 100%);
+	background: radial-gradient(ellipse at bottom, #0d1651 0%, #020b1a 100%);
 }
 
 body {

@@ -41,9 +41,11 @@ export let elemen_gen = ( name, action, parent, classname, idname ) => {
 export let vpage_mode = () => {
     let scrol = document.querySelector('.vw');
     scrol.style.width = 'min-content'
+   
     document.querySelector('.va').style.height = scrol.offsetWidth + 'px';
     scrol.style.width = '100vw'
     window.addEventListener('scroll', () =>{
+        console.log(window.scrollX);
         scrol.scrollTo( window.scrollY , 0 );
     });
 }
