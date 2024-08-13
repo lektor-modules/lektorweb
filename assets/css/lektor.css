@@ -200,7 +200,7 @@ header .action {
 	}
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 760px) {
 
 	.menus .mascot{
 		display: block;
