@@ -74,11 +74,18 @@ body.menu-open{
 	gap: 0 18px;
 }
 
+.v-md {
+	display: none;
+}
 
 @media only screen and (min-width: 810px) {
-	
+
 	.vw {
 		gap: 0 20px;
+	}
+
+	.v-md {
+		display: block;
 	}
 }
 

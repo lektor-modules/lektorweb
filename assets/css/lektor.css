@@ -42,14 +42,6 @@
 }
 
 
-/** TOPNAV **/
-.menus {
-	display: none;
-}
-
-.menu-open .menus {
-	display: flex;
-}
 
 
 /** CARDER */
@@ -122,6 +114,7 @@ header .action {
 
 /** TOPNAV  */
 .menus {
+	display: none;
 	opacity: 1;
     position: fixed;
     top: 10vh;
@@ -132,7 +125,12 @@ header .action {
 	justify-content: center;
 }
 
+.menu-open .menus {
+	display: flex;
+}
+
 .menus .menubox{
+	width: 90%;
 	display: grid;
 	grid-template-columns: 100%;
 }
@@ -310,8 +308,7 @@ html[data-mode="dark"] .topnav > a img{
 
 footer {
 	opacity: 1;
-	padding: 0 var(--page-margin ) ;
-    justify-content: space-between;
+	display: block;
 }
 
 .socmed.email img,
@@ -337,6 +334,12 @@ footer {
 
 @media only screen and (min-width: 810px) {
 
+	footer {
+		display: flex;
+		padding: 0 var(--page-margin) ;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 
 
