@@ -203,6 +203,12 @@ header .action {
 
 @media only screen and (min-width: 768px) {
 
+	.menus .mascot{
+		display: block;
+		-webkit-transform: scaleX(-1);
+		transform: scaleX(-1);
+	}
+	
 	.menus .topnav{
 		grid-template-columns: 50% 50%;
 	}
@@ -213,12 +219,6 @@ header .action {
 
 	.menus {
 		
-	}
-
-	.menus .mascot{
-		display: block;
-		-webkit-transform: scaleX(-1);
-		transform: scaleX(-1);
 	}
 
 	.menus .navi {
