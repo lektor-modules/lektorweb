@@ -153,9 +153,9 @@ header .action {
 }
 
 .topnav > a {
-	color: #fff;
 	text-decoration: none;
 	grid-template-columns: 90px calc( 100% - 90px );
+	grid-row-gap: 2rem;
 }
 
 .topnav > a .boxicon {
@@ -180,10 +180,6 @@ header .action {
 	font-size: 1rem;
 }
 
-html[data-mode="dark"] .topnav > a img{
-    -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: invert(100%);
-}
 
 @media only screen and (min-width: 480px) {
 	.menus .mascot{
@@ -276,7 +272,6 @@ html[data-mode="dark"] .topnav > a img{
 		grid-gap: 4rem;
 	}
 
-
 	.menus .topnav{
 		margin-top: 2.5em;
 		row-gap: 2.5rem;
@@ -312,9 +307,6 @@ footer {
 	justify-content: space-between;
 }
 
-.socmed {
-	color: #fff;
-}
 
 .socmed .icon {
 	width: 18px;
@@ -342,7 +334,7 @@ footer {
 		display: block;
 		font-size: .825rem;
 		padding-left: 7px;
-		border-left: 1px solid #fff;
+		border-left: 1px solid var(--color-text);
 	}
 }
 
