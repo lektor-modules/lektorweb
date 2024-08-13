@@ -206,7 +206,7 @@ header .action {
 		display: block;
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
-		width: 380px;
+		width: 360px;
     	height: auto;
 	}
 
