@@ -214,6 +214,10 @@ header .action {
 		text-align: center;
 	}
 
+	.menus .fz-hero {
+		font-size: 2.5rem;
+	}
+
 	.menus .fz-task{
 		text-align: center;
 	}
