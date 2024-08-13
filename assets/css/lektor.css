@@ -149,6 +149,8 @@ header .action {
 }
 
 .topnav{
+	display: grid;
+	row-gap: 4rem;
 	margin-top: 3em;
 }
 
@@ -202,10 +204,8 @@ header .action {
 	}
 
 	.menus .topnav{
-		display: grid;
 		grid-template-columns: 50% 50%;
 		grid-gap: 2%;
-		row-gap: 4rem;
 	}
 
 	.menus .topnav > a {
