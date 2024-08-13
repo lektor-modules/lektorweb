@@ -314,7 +314,6 @@ footer {
 
 .socmed {
 	color: #fff;
-	border-left: 1px solid #fff;
 }
 
 .socmed .icon {
@@ -343,7 +342,7 @@ footer {
 		display: block;
 		font-size: .825rem;
 		padding-left: 7px;
-		
+		border-left: 1px solid #fff;
 	}
 }
 
