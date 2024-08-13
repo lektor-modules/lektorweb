@@ -206,8 +206,12 @@ header .action {
 		display: block;
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
-		width: 360px;
+		width: 320px;
     	height: auto;
+	}
+
+	.menus .navi {
+		margin-top: 2rem;
 	}
 
 	.menus .gretting {
