@@ -128,6 +128,7 @@ header .action {
     bottom: 10vh;
     right: 0;
     left: 0;
+	overflow-y: scroll;
 	justify-content: center;
 }
 
@@ -229,6 +230,7 @@ html[data-mode="dark"] .topnav > a img{
 	.menus {
 		top: 10vh;
 		bottom: 10vh;
+		overflow-y: hidden;
 	}
 
 	.menus .menubox{
