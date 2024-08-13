@@ -192,11 +192,19 @@ header .action {
 
 	.menus .topnav{
 		row-gap: 2rem;
+		grid-gap: 2%;
 		margin-top: 2em;
 	}
 
 	.menus .topnav > h3{
 		font-size: 1rem;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	.menus .topnav{
+		grid-template-columns: 50% 50%;
 	}
 }
 
@@ -224,8 +232,6 @@ header .action {
 
 	.menus .topnav{
 		margin-top: 3em;
-		grid-template-columns: 50% 50%;
-		grid-gap: 2%;
 	}
 
 	.menus .topnav > a {
