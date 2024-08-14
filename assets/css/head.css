@@ -55,7 +55,8 @@ body.menu-open{
 .vm {
 	left: 0;
 	top: 0;
-	height: 100vh;
+	height: 100%;
+	height: -webkit-fill-available;
 	position: fixed;
 	background-color: transparent;
 	display: grid;
