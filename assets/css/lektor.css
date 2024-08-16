@@ -192,7 +192,7 @@ header .action {
 @media only screen and (min-width: 360px) {
 
 	.menus .menubox{
-		margin-bottom: 2.5rem;
+		align-content: center;
 	}
 
 	.menus .navi{
