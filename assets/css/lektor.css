@@ -159,7 +159,7 @@ header .action {
 
 .topnav > a {
 	text-decoration: none;
-	grid-template-columns: 42px calc( 100% - 42px );
+	grid-template-columns: 60px calc( 100% - 60px );
 	grid-row-gap: 2em;
 }
 
