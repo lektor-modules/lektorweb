@@ -56,3 +56,15 @@ export let init_navis = () => {
         document.getElementsByTagName('body')[0].classList.toggle('menu-open');
     });
 }
+
+export let check_elem = ( item ) => {
+    let target = document.querySelector( item );
+    if ( target ) 
+    {
+        return true;
+    }
+    else 
+    {
+        return false;
+    }
+} 
