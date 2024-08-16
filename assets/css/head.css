@@ -148,17 +148,17 @@ body.menu-open{
 }
 
 .fz-hero{
-	font-size: 2.7rem;
+	font-size: 2.7em;
 	font-weight: 400;
 }
 
 .fz-name{
-	font-size: 1.15rem;
+	font-size: 1.15em;
 	font-weight: 400;
 }
 
 .fz-task{
-	font-size: 1.05rem;
+	font-size: 1.05em;
 	font-weight: 300;
 }
 
@@ -169,44 +169,44 @@ a {
 
 @media only screen and (min-width: 810px) {
 	.fz-hero{
-		font-size: 3.75rem;
+		font-size: 3.75em;
 	}
 
 	.fz-name{
-		font-size: 1.3rem;
+		font-size: 1.3em;
 	}
 
 	.fz-task{
-		font-size: 1.1rem;
+		font-size: 1.1em;
 	}
 }
 
 @media only screen and (min-width: 1280px) {
 	.fz-hero{
-		font-size: 4rem;
+		font-size: 4em;
 	}
 
 	.fz-name{
-		font-size: 1.4rem;
+		font-size: 1.4em;
 	}
 
 	.fz-task{
-		font-size: 1.2rem;
+		font-size: 1.2em;
 	}
 }
 
 @media only screen and (min-width: 1440px) {
 
 	.fz-hero{
-		font-size: 5rem;
+		font-size: 5em;
 	}
 
 	.fz-name{
-		font-size: 1.55rem;
+		font-size: 1.55em;
 	}
 
 	.fz-task{
-		font-size: 1.2rem;
+		font-size: 1.2em;
 	}
 }
 
@@ -349,31 +349,31 @@ html[data-mode="dark"] img.icon {
 
 /** SPACING **/
 .mt-half {
-	margin-top: .5rem;
+	margin-top: .5em;
 }
 
 .mt-1{
-	margin-top: 1rem;
+	margin-top: 1em;
 }
 
 .mt-2{
-	margin-top: 2rem;
+	margin-top: 2em;
 }
 
 .mt-3{
-	margin-top: 3rem;
+	margin-top: 3em;
 }
 
 .mt-4{
-	margin-top: 4rem;
+	margin-top: 4em;
 }
 
 .mt-5 {
-	margin-top: 5rem;
+	margin-top: 5em;
 }
 
 .pl-3 {
-	padding-left: 3rem;
+	padding-left: 3em;
 }
 
 
@@ -394,7 +394,7 @@ header .panel {
 }
 
 .brand h1{
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 .tagline {
