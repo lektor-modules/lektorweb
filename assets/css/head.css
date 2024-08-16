@@ -1,5 +1,6 @@
 :root {
 	--page-margin : 5vw;
+	--page-height: 100%;
 	--accent-main : radial-gradient(ellipse at bottom, #eee 0%, #fff 100%);
 	--color-text : #000;
 	--color-grey:rgb(161, 161, 170);
@@ -20,10 +21,14 @@
     padding: 0px;
 }
 
+html, body {
+	height: 100vh; /* fallback for Js load */
+	height: var(--page-height);
+}
+
 html{
 	color: var(--color-text);
 	background : var(--accent-main);
-	height: -webkit-fill-available;
 }
 
 
@@ -34,8 +39,6 @@ body {
 	overflow-y: scroll;
     font-style: normal;
 	font-size: 14px;
-	min-height: 100svh;
-	min-height: -webkit-fill-available;
 }
 
 body.menu-open{

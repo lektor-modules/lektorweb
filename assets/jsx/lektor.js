@@ -4,6 +4,17 @@ import { init_darks } from "../mod/darkmod/dark.js"
 import { script_gen, vpage_mode, init_navis } from "../mod/lektorer/main.js"
 
 
+function fix_height() {
+    const documentHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+    }
+    window.addEventListener(‘resize’, documentHeight)
+    documentHeight()
+       
+}
+
+
 window.onload = () => {
 
     const path = window.location.pathname;
@@ -14,6 +25,8 @@ window.onload = () => {
         script_gen('css', 'assets/page/home/home.css' );
         script_gen('jsx', 'assets/page/home/home.js' );
     }
+
+    fix_height();
 
     // horizontal page 
     vpage_mode();
