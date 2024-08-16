@@ -3,19 +3,6 @@ import { init_hanav } from "../mod/hamenu/ham.js"
 import { init_darks } from "../mod/darkmod/dark.js"
 import { script_gen, vpage_mode, init_navis, check_elem } from "../mod/lektorer/main.js"
 
-
-function fix_height() {
-    const documentHeight = () => {
-    const doc = document.documentElement
-    doc.style.setProperty('--page-height', `${window.innerHeight}px`)
-    }
-    window.addEventListener('resize', documentHeight)
-    documentHeight()
-}
-
-
-
-
 window.onload = () => {
 
     const path = window.location.pathname;

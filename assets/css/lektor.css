@@ -159,20 +159,20 @@ header .action {
 
 .topnav > a {
 	text-decoration: none;
-	grid-template-columns: 90px calc( 100% - 90px );
+	grid-template-columns: 42px calc( 100% - 42px );
 	grid-row-gap: 2em;
 }
 
 .topnav > a .boxicon {
 	position: relative;
-	width: 60px;
-    height: 60px;
+	width: 42px;
+    height: 42px;
 }
 
 .topnav > a .ambience{
 	position: absolute;
-	width: 60px;
-    height: 60px;
+	width: 42px;
+    height: 42px;
 	border-radius: 50px;
     top: 0;
 	opacity: .24;
@@ -220,6 +220,8 @@ header .action {
 		grid-gap: 2%;
 		margin-top: 2em;
 	}
+
+
 
 	.menus .topnav > h3{
 		font-size: 1em;
