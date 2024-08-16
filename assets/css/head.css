@@ -30,14 +30,12 @@ html{
 	min-height: 100vh;
 }
 
-
-
 body {
 	font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
 	overflow-y: scroll;
     font-style: normal;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 body.menu-open{
