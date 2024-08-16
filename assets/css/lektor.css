@@ -185,11 +185,19 @@ header .action {
 	font-size: .9em;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 359px) {
 	
 }
 
-@media only screen and (min-width: 359px) {
+@media only screen and (min-width: 360px) {
+
+	.menus .menubox{
+		margin-bottom: 2.5rem;
+	}
+
+	.menus .navi{
+		margin-bottom: 3rem;
+	}
 
 	.menus .mascot{
 		display: block;
