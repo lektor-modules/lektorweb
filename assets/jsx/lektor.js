@@ -28,7 +28,7 @@ window.onload = () => {
         script_gen('jsx', 'assets/page/home/home.js' );
     }
 
-    fix_height();
+    // fix_height();
 
     // horizontal page 
     vpage_mode();
