@@ -23,7 +23,7 @@
 html{
 	color: var(--color-text);
 	background : var(--accent-main);
-	min-height: 100vh;
+	min-height: 100dvh;
 }
 
 
