@@ -9,10 +9,12 @@ function fix_height() {
     const doc = document.documentElement
     doc.style.setProperty('--page-height', `${window.innerHeight}px`)
     }
-    window.addEventListener('resize’' documentHeight)
+    window.addEventListener('resize', documentHeight)
     documentHeight()
        
 }
+
+
 
 
 window.onload = () => {
