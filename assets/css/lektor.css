@@ -192,7 +192,7 @@ header .action {
 		display: block;
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
-		width: 142px;
+		width: 120px;
     	height: auto;
 	}
 
