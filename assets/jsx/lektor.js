@@ -7,7 +7,7 @@ import { script_gen, vpage_mode, init_navis } from "../mod/lektorer/main.js"
 function fix_height() {
     const documentHeight = () => {
     const doc = document.documentElement
-    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+    doc.style.setProperty('--page-height', `${window.innerHeight}px`)
     }
     window.addEventListener(‘resize’, documentHeight)
     documentHeight()
