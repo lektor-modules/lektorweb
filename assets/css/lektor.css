@@ -185,14 +185,17 @@ header .action {
 	font-size: .9em;
 }
 
+@media only screen and (max-width: 360px) {
+	
+}
 
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 359px) {
 
 	.menus .mascot{
 		display: block;
 		-webkit-transform: scaleX(-1);
 		transform: scaleX(-1);
-		width: 120px;
+		width: 132px;
     	height: auto;
 	}
 
@@ -211,7 +214,6 @@ header .action {
 	.menus .fz-task{
 		text-align: center;
 	}
-
 
 	.menus .topnav{
 		row-gap: 2em;
